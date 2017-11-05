@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.27019.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCCD79DB-5207-4116-905E-D3B85F24A9D7}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,13 +12,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.Module.Shared", "Cake.Module.Shared\Cake.Module.Shared.csproj", "{19079E09-A53C-4D38-ACC6-66DECAC59372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.TFBuild.Module", "Cake.TFBuild.Module\Cake.TFBuild.Module.csproj", "{2534AB29-02D3-43FB-B4B8-F19CF7CE2FB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.TFBuild.Module", "Cake.TFBuild.Module\Cake.TFBuild.Module.csproj", "{2534AB29-02D3-43FB-B4B8-F19CF7CE2FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.TeamCity.Module", "Cake.TeamCity.Module\Cake.TeamCity.Module.csproj", "{F30233D0-D123-49A1-90CD-FD69C0ABC45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.TeamCity.Module", "Cake.TeamCity.Module\Cake.TeamCity.Module.csproj", "{F30233D0-D123-49A1-90CD-FD69C0ABC45A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.TravisCI.Module", "Cake.TravisCI.Module\Cake.TravisCI.Module.csproj", "{A1C6ECBD-7615-4054-AC7A-FC5B47EBAA51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.TravisCI.Module", "Cake.TravisCI.Module\Cake.TravisCI.Module.csproj", "{A1C6ECBD-7615-4054-AC7A-FC5B47EBAA51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.MyGet.Module", "Cake.MyGet.Module\Cake.MyGet.Module.csproj", "{CECFF9DB-D08C-4DA0-8C13-3CA523E1D116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.MyGet.Module", "Cake.MyGet.Module\Cake.MyGet.Module.csproj", "{CECFF9DB-D08C-4DA0-8C13-3CA523E1D116}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.AppVeyor.Module", "Cake.AppVeyor.Module\Cake.AppVeyor.Module.csproj", "{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,8 +88,23 @@ Global
 		{CECFF9DB-D08C-4DA0-8C13-3CA523E1D116}.Release|x64.Build.0 = Release|Any CPU
 		{CECFF9DB-D08C-4DA0-8C13-3CA523E1D116}.Release|x86.ActiveCfg = Release|Any CPU
 		{CECFF9DB-D08C-4DA0-8C13-3CA523E1D116}.Release|x86.Build.0 = Release|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Debug|x64.Build.0 = Debug|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Debug|x86.Build.0 = Debug|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Release|x64.ActiveCfg = Release|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Release|x64.Build.0 = Release|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Release|x86.ActiveCfg = Release|Any CPU
+		{CDF37DE1-6B6D-4BC0-BE05-A321C583584F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {884CC497-D373-47AC-BF4E-03D0664E9314}
 	EndGlobalSection
 EndGlobal

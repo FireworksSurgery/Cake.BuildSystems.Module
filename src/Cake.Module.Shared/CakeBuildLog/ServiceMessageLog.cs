@@ -40,7 +40,7 @@ namespace Cake.Module.Shared
             Verbosity = verbosity;
         }
 
-        public void Write(Verbosity verbosity, LogLevel level, string format, params object[] args)
+        public virtual void Write(Verbosity verbosity, LogLevel level, string format, params object[] args)
         {
             if (verbosity > Verbosity)
             {
